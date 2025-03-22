@@ -1,0 +1,652 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+} 
+body{
+    background-color: rgb(40, 40, 40);
+   
+
+}
+.top-div{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(40,40,40);
+    padding-left: 5px;
+    color: #fff;
+   /* position: fixed;*/
+
+}
+
+
+    .top-div .youtbr-logo{
+        padding: 60px;
+        height: 100%;
+        width: 100%;
+        margin-left: 100px;
+
+    }
+    .top-div  .logo-text{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 10px;
+
+    }
+    .top-div .serch-bar{
+        width: 65%;
+        margin: 20px auto;
+        line-height: 46px;
+        position: static;
+        margin-right: 50px;
+        
+
+    }
+    form{
+        margin-left: 100px;
+    }
+
+    input{
+       
+        width: 70%;
+        height: 42px;
+        border: 1px solid #BEBEBE;
+        border-left: 0;
+        top: 13px;
+        padding: 20px 20px;
+        right: 0;
+        border-radius: 20px 0 0 20px;
+        cursor: pointer;
+        font-size: 18px;
+        text-align: left;
+        padding: 20px 20px;
+        background-color:transparent;
+        box-sizing: 1px;
+        z-index: 2;
+        color: #fff;
+
+    }
+    button {
+      
+        width: 42px;
+        height: 42px;
+        border: 1px solid #BEBEBE;
+        border-left: 0;
+        top: 13px;
+        right: 0;
+        color: #9a9898;
+        border-radius: 0px 20px 20px 0;
+        cursor: pointer;
+        font-size: 19px;
+        text-align: center;
+        background-color:transparent;
+        z-index: 2;
+        text-align: center;
+        
+        
+    }
+
+    .btn-mic{
+        border-radius: 25px;
+        margin-left: 30px;
+
+    }
+    button.btn-mic :hover{
+        cursor: pointer;
+        color: rgb(243, 255, 255);
+       
+
+    }
+    button :hover{
+        cursor: pointer;
+        color: #fff;
+        
+    }
+
+    .account-manage-section{
+    height: 100px;
+    width: 35%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5px;
+    color: #fff;
+    }
+    .create-btn .create{ 
+        width: 115px;
+        height: 42px;
+        border: 1px solid #BEBEBE;
+        border-left: 0;
+        top: 13px;
+        padding: 20px 20px;
+        right: 0;
+        border-radius: 12px 12px 12px 12px;
+        cursor: pointer;
+        font-size: 18px;
+        text-align: left;
+        padding: 20px 20px;
+        background-color:transparent;
+        box-sizing: 1px;
+        z-index: 2;
+        color: #848484;
+        padding-top: 10px;
+        
+    }
+    .create-btn .create :hover{
+        cursor: pointer;
+        color: #fff;
+    }
+
+.bell-btn .bell{
+    width: 42px;
+    height: 42px;
+    border: 1px solid #BEBEBE;
+    border-left: 0;
+    top: 13px;
+    right: 0;
+    color: #9a9898;
+    border-radius: 22px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    background-color:transparent;
+    z-index: 2;
+   
+
+}
+.bell-btn .bell :hover{
+    cursor: pointer;
+    color: #fff;
+}
+.profile .prof{
+        width: 120px;
+        height: 42px;
+        border: 1px solid #BEBEBE;
+        border-left: 0;
+        top: 13px;
+        padding: 20px 20px;
+        right: 0;
+        border-radius: 12px 12px 12px 12px;
+        cursor: pointer;
+        font-size: 18px;
+        text-align: left;
+        padding: 20px 20px;
+        background-color:transparent;
+        box-sizing: 1px;
+        z-index: 2;
+        color: #827f7f;
+        padding-top: 10px;
+        margin-left: 45px;
+
+}
+.account-manage-section :hover{
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+/*filer sction start*/
+.filter-area{
+    
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 30px;
+    
+   
+
+
+ 
+}
+
+.filter{
+    height: 50px;
+}
+.filter .all{
+    margin-left:5px ;
+    height: 30px;
+    width: 50px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .all:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+.filter .Podcasts{
+    margin-left:5px ;
+    height: 30px;
+    width: 150px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .Podcasts:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+.filter .computer-graphics-3d {
+    margin-left:5px ;
+    height: 30px;
+    width: 200px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .computer-graphics-3d:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+.filter .Thamil-cinemas{
+    margin-left:5px ;
+    height: 30px;
+    width: 160px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .Thamil-cinemas:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+.filter .Sci-fi-films{
+    margin-left:5px ;
+    height: 30px;
+    width: 115px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .Sci-fi-films:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+
+.filter .Gaming{
+    margin-left:5px ;
+    height: 30px;
+    width: 80px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .Gaming:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+.filter .Vocal-language{
+    margin-left:5px ;
+    height: 30px;
+    width: 160px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .Vocal-language:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+.filter .Job-interviws{
+    margin-left : 5px ;
+    height: 30px;
+    width: 130px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .Job-interviws:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}.filter .Spacecraft{
+    margin-left:5px ;
+    height: 30px;
+    width: 120px;
+    background-color: #413f3f;
+    border-radius: 8px;
+    border: 1px;
+    color: #fff;
+
+}
+ .Spacecraft:hover{
+cursor: pointer;
+background-color: #fff;
+color: black;
+box-shadow: 0 4px 2px rgb(71, 70, 70);
+}
+/* side bar end */
+
+
+
+/* side bar start */
+
+.side-bar{
+    height: 100vh;
+    width:100px;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40,40,40);
+    position: fixed;
+    
+   
+}
+
+
+.side-bar .home{
+
+    height: 90px;
+    width: 90px;
+    border-radius: 12px;
+    margin-top: 10px ;
+    border: none;
+    font-size: 40px;
+    text-align: center;
+    background: rgba(40, 40, 40, .5);
+
+}
+
+.side-bar .shorts{
+
+    height: 90px;
+    width: 90px;
+    border-radius: 12px;
+    margin-top: 30px ;
+    border: none;
+    font-size: 40px;
+    background: rgba(40, 40, 40, .5);
+    
+    
+
+}
+.side-bar .subscription{
+
+    height: 90px;
+    width: 90px;
+    border-radius: 12px;
+    margin-top: 30px ;
+    border: none;
+    font-size: 40px;
+    background: rgba(40, 40, 40, .5);
+    
+    
+
+}
+.side-bar .You{
+
+    height: 90px;
+    width: 90px;
+    border-radius: 12px;
+    margin-top: 30px ;
+    border: none;
+    font-size: 40px;
+    background: rgba(40, 40, 40, .5);
+    
+    
+
+}
+
+
+
+.side-bar h1{
+    font-size: 16px;
+    color: #fff
+    ;
+}
+
+
+
+/* side bar end */
+
+ /* left sectin start */
+
+.left-content{
+    width: 50%;
+    height: 1200px;
+    float:left;
+}
+
+
+#kodaly{
+  
+    height: 300px;
+    width: 500px;
+    
+    
+}
+.vedio-kodaly{
+    display: flex;
+    
+    margin-left: 130px;
+
+}
+.vedio-kodaly h1{
+    position: initial;
+    margin-top: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.vedio-kodaly h2{
+    position: initial;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #d1cccc;
+
+    
+}
+.kodaly-content{
+    width: 500px;
+    align-self: auto;
+    margin: -500px;
+    padding-left: -500px;
+    margin-top: 5px;
+    }
+/* simple-appupan start*/
+#simple-appupan{
+   
+    height: 300px;
+    width: 500px;
+     
+}
+.vedio-simple-appupan{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 60px;
+
+}
+.vedio-simple-appupan h1{
+    position: initial;
+    
+    margin-top: 310px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: right;
+}
+.vedio-simple-appupan h2{
+    position: initial;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #d1cccc;
+}
+.simple-appupan-content{
+width: 500px;
+align-self: auto;
+margin: -500px;
+padding-left: -500px;
+margin-top: 5px;
+}
+
+    /* freelance short film start */
+    #freelance-short-film{
+   
+        height: 300px;
+        width: 500px;
+        float: right;
+         
+    }
+    .vedio-freelance-short-film{
+        display: flex;
+    margin-left: 130px;
+    margin-top: 60px;
+    }
+    .vedio-freelance-short-film h1{
+        position: initial;
+        
+        margin-top: 365px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: #fff;
+        text-align: right;
+    }
+    .vedio-freelance-short-film h2{
+        position: initial;
+       
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        color: #d1cccc;
+    }
+    .freelance-short-film-content{
+        width: 500px;
+        align-self: auto;
+        margin: -500px;
+        padding-left: -400px;
+        margin-top: -60px;
+   
+    }
+
+
+
+
+
+ /* Right sectin start */
+    .right-content{
+        width: 50%;
+        height: 1200px;
+        float:left  ;
+    }
+
+    #Dashamoolam-damu{
+   
+        height: 300px;
+        width: 500px;
+        float: right;
+        margin-top:-60px ;
+        margin-right: 70px;
+    }
+    .vedio-Dashamoolam-damu{
+        display: flex;
+    margin-left: 130px;
+    margin-top: 60px;
+    }
+    .vedio-Dashamoolam-damu h1{
+        position: initial;
+        margin-top:-90px ;
+        margin-right: 70px;
+        margin-top: 302px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: #fff;
+        text-align: left;
+    }
+    .vedio-Dashamoolam-damu h2{
+        position: initial;
+        margin-top:4px ;
+        margin-left: 10px;
+       
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        color: #d1cccc;
+    }
+    .Dashamoolam-damu-content{
+    width: 500px;
+    
+    margin: -550px;
+    padding-left: -400px;
+    margin-top: -60px;
+    }
+    
+    
+
+
+    #Simply-Appuppan-QnA-Part1{
+   
+        height: 300px;
+        width: 500px;
+        float: right;
+        margin-top:-5px ;
+        margin-right: 70px;
+    }
+    .vedio-Simply-Appuppan-QnA-Part1{
+        display: flex;
+    margin-left: 130px;
+    margin-top: 60px;
+    }
+    .vedio-Simply-Appuppan-QnA-Part1 h1{
+        position: initial;
+        margin-top:-90px ;
+        margin-right: 70px;
+        margin-top: 303px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: #fff;
+        text-align: left;
+    }
+    .vedio-Simply-Appuppan-QnA-Part1 h2{
+        position: initial;
+        margin-top:2px ;
+        margin-left: 10px;
+       
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        color: #d1cccc;
+    }
+    .Simply-Appuppan-QnA-Part1-content{
+    width: 500px;
+    
+    margin: -550px;
+    padding-left: -400px;
+    margin-top: 0px;
+    }
+
+
+
